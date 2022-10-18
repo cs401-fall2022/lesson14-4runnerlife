@@ -10,7 +10,9 @@
     background-color: #F0F0F0;
     padding: 5px;
 }
+
 #OOP{
+    
     border: 2px rgb(255, 0, 43) solid;
     background-color: #F0F0F0;
     padding: 5px;
@@ -22,4 +24,5 @@
 }
 h2{
     font-style: italic;
+    
 }
