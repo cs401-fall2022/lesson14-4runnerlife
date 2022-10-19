@@ -22,25 +22,25 @@
     <p><span>JavaScript provides language primitives (i.e. string, number) but doesn't enforce them, TypeScript does.
         Since JavaScript already uses these that means we do not need to change our existing code base. 
         We would normally do something like below.  If we check the JS code already assigns the value of string. </span></p>
-        <img src ="images/value as string.png" alt = "Creating a var">
+        <img src ="images/value as string.png" alt = "Creating a var" class="center">
         
         <p> So we can use the pre-built primitives but if we have something specific that we need to do we can create our own types 
           using TypeScript. For example if we wanted to create a type for a team we would do this.</p>
         
-        <img src = "images/Team interface.png" alt = "Team Interface">
+        <img src = "images/Team interface.png" alt = "Team Interface" class="center">
         
         <p>
           When we do this we can then use this type to create new objects that we can call methods on to return specific information about it.
           One thing to note is that if we create our own type then TypeScript will check to make sure it matches the type specifications.
           If not we will now receive an error.
         </p>
-        <img src = "images/incorrect team.png" alt = "Team Interface">
+        <img src = "images/incorrect team.png" alt = "Team Interface" class="center">
         <p>
           	In JavaScript each value has a set of behaviors that can obtained from running operations on the values.  
           In TypeScript there is a Static type-checker. This means that if we try to do this we will get an error as seen below.
         </p>
         
-        <img src = "images/method on a value.png" alt = "Team Interface">
+        <img src = "images/method on a value.png" alt = "Team Interface" class="center">
   </div>
 
 </div>
@@ -70,7 +70,9 @@
       <span> Insert pic</span>
       For our existing files to migrate them to TypeScript you will just need to change the name of the file from 
       .js to .ts.
-      
+      <p>
+        To run the code from the terminal you will need to enter the command 'npm run compile'.  Then enter 'npm (Name of your file)' to run your code.
+      </p>
     </p>
   </div>
 </div>

@@ -1,26 +1,41 @@
 #container{
     width: 100%;
     height: 100%;
-    border: 2px blue solid;
+    
     background-color: #F0F0F0;
     padding: 5px;
 }
+h2:hover {
+    background-color: rgb(218, 98, 18);
+    width: 33%;
+  }
 #Type{
     border: 2px rgb(199, 116, 20) solid;
     background-color: #F0F0F0;
     padding: 5px;
+    border-radius: 15px;
 }
-
+#first{
+    
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 #OOP{
     
     border: 2px rgb(255, 0, 43) solid;
     background-color: #F0F0F0;
     padding: 5px;
+    border-radius: 15px;
 }
 #Running{
     border: 2px rgb(35, 121, 27) solid;
     background-color: #F0F0F0;
     padding: 5px;
+    border-radius: 15px;
 }
 h2{
     font-style: italic;
