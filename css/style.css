@@ -5,9 +5,26 @@
     background-color: #F0F0F0;
     padding: 5px;
 }
-h2:hover {
-    background-color: rgb(218, 98, 18);
-    width: 33%;
+.header2{
+    display:inline-block;
+    position: relative;
+    
+}
+.header2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .header2:hover:after{
+    transform:scaleX(1);
+    transform-origin: bottom left;
   }
 #Type{
     border: 2px rgb(199, 116, 20) solid;
