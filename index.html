@@ -11,11 +11,12 @@
 </head>
 
 <div id = "container">
-<h1>Introduction to TypeScript</h1>
+  <div id = "Intro">
+<h1 class="header2">Introduction to TypeScript</h1>
 <div>
   <p>This page will provide an overview of the major differences between our current language, JavaScript, and the language we are moving to, TypeScript. </p> 
 </div>
-
+</div>
  <div id="Type">
   <h2 class="header2">Typing</h2>
   <div id="first">
@@ -43,21 +44,28 @@
         <img src = "images/method on a value.png" alt = "Team Interface" class="center">
   </div>
 
-</div>
+</div>                                   
 <div id = "OOP">
 <h2 class="header2"> OOP </h2>
   <div>
     <p>
-      JavaScript allows OOP and so TypeScript will as well.  In normal OOP classes are used, in JavaScript and TypeScript a class 
+      JavaScript allows OOP and so TypeScript will as well.  Below is an example of how a class can be implemented in TypeScript.
+      <img src = "images/Person class.png" alt = "Person" class = "center">
+      
+      
+      In normal OOP classes are used, in JavaScript and TypeScript a class 
       is a special function, called a constructor function, that defines properties and methods from which an object may inherit.
+      Just like in Java and other OOP languages there are private and public key words.  A private property is a property that is only accessible to 
+      object methods but is not accessible from outside the class.  Private properties may be simulated in JavaScript by creating local variables in a 
+      constructor function with getters and setters to get and set the properties.
+      <img src = "images/Get and set.png" alt ="Getters and Setters" class = "center">
     </p>
-    <p>
-      A private property is a property that is only accessible to object methods but is not accessible from outside the class.
-      Private properties may be simulated in JavaScript by creating local variables in a constructor function with getters and setters to get and set the properties.
-    </p>
+    
     <p>
       Inheritance creates a new child class that adopts properties of a parent class. Ex: A Student class (child) may inherit from a Person class (parent), so a Student 
-      class has the same properties of a Person and may add even more properties.
+      class has the same properties of a Person and may add even more properties.  
+
+      <img src ="images/Inheritance.png" alt ="Inheritance" class = "center">
     </p>
   </div>
 </div>

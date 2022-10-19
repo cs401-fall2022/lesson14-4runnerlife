@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     
-    background-color: #F0F0F0;
+    background: linear-gradient(to right, blue, orange);
     padding: 5px;
 }
 .header2{
@@ -27,13 +27,20 @@
     transform-origin: bottom left;
   }
 #Type{
-    border: 2px rgb(199, 116, 20) solid;
-    background-color: #F0F0F0;
+    border: 2px rgb(13, 14, 13) solid;
+    background-color: #f0f0f0bd;
     padding: 5px;
     border-radius: 15px;
+    width: 90%;
+    margin: auto;
 }
-#first{
-    
+#Intro{
+    border: 2px rgb(13, 14, 13) solid;
+    background-color: #f0f0f0bd;
+    padding: 5px;
+    border-radius: 15px;
+    width: 90%;
+    margin: auto; 
 }
 .center{
     display: block;
@@ -43,16 +50,21 @@
 }
 #OOP{
     
-    border: 2px rgb(255, 0, 43) solid;
-    background-color: #F0F0F0;
+    border: 2px rgb(13, 14, 13) solid;
+    background-color: #f0f0f0bd;
     padding: 5px;
     border-radius: 15px;
+    width: 90%;
+    margin: auto;
+    
 }
 #Running{
-    border: 2px rgb(35, 121, 27) solid;
-    background-color: #F0F0F0;
+    border: 2px rgb(13, 14, 13) solid;
+    background-color: #f0f0f0bd;
     padding: 5px;
     border-radius: 15px;
+    width: 90%;
+    margin: auto;
 }
 h2{
     font-style: italic;
